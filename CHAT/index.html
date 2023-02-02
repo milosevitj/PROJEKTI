@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CHAT PROJEKAT</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="row">
+      <div class="col-2">&nbsp;</div>
+      <div class="col-8">
+        <h1>ITBootcamp Chat</h1>
+        <h2>Choose a chatroom</h3>
+        </div>
+      <div class="col-2">&nbsp;</div>
+    </header>
+
+    
+    <nav class="row" id="nav">
+        <div class="col-2">&nbsp;</div>
+        <button id="#general" class="col-2">#general</button>
+        <button id="#js" class="col-2">#js</button>
+        <button id="#homeworks" class="col-2">#homeworks</button>
+        <button id="#tests" class="col-2">#tests</button>
+        <div class="col-2">&nbsp;</div>
+    </nav>
+  
+
+    <!-- prikaz poruka -->
+    <section class="row">
+        <div class="col-2">&nbsp;</div>
+        <div class="col-8 section">
+          <ul>
+        
+          </ul>
+        </div>
+        <div class="col-2">&nbsp;</div>
+    </section>
+
+    <div class="row">
+        <div class="col-2">&nbsp;</div>
+            <input class="col-6" type="text" name="send" id="inpSend" placeholder="Your message" />
+            <button class="col-2" id="send">Send</button>
+        <div class="col-2">&nbsp;</div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">&nbsp;</div>
+            <input class="col-6"
+            type="text"
+            name="text"
+            id="inpText"
+            placeholder="Update username" />
+        <button class="col-2" id="btnUpd">Update</button>
+    <div class="col-2">&nbsp;</div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBnzr7s0EwXqR9W6Opemed0ddjdmZKTtRg",
+        authDomain: "it-bootcamp-d1487.firebaseapp.com",
+        projectId: "it-bootcamp-d1487",
+        storageBucket: "it-bootcamp-d1487.appspot.com",
+        messagingSenderId: "307588492137",
+        appId: "1:307588492137:web:66ca3d02c63af4d76aabf8",
+        measurementId: "G-1HGQ3VD311",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      let db = firebase.firestore();
+    </script>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
