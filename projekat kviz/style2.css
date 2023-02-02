@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xvYmUlMjBtYXB8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+}
+
+h1{
+    color:orange;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid orange;
+}
+
+#div2{
+    background-color: transparent;
+    border: none;
+}
+
+#showAnswers{
+    background-color: transparent;
+    border: none;
+}
+
+div,p{
+    margin: 20px;
+    width: 60%;
+    margin-left: 20px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    background-color: rgb(244, 234, 223);
+    padding-left: 10px;
+    padding-bottom:  30px;
+ }
+
+ 
+ div,p, h4{
+     margin-left: 10px;
+ }
+ 
+ #odg{
+     border-color: orange;
+     border-radius: 7px;
+     padding:10px;
+     margin-left:30px;
+ }
+ 
+ #new{
+     border-color: green;
+     border-radius: 7px;
+     padding:10px;
+     margin-left: 20px;
+ }

@@ -1,0 +1,21 @@
+body{
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+.ljub,h2,h1{
+    color:purple
+}
+
+#Izracunaj, #Resetuj{
+    border-color: purple;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    border: 1px solid purple;
+}
