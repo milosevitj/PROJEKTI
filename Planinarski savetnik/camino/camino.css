@@ -1,0 +1,22 @@
+.img-camino {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-camino img {
+  flex: 0 0 calc(33.3333% - 10px);
+  margin: 5px;
+  height: 350px; /* Dodajte visinu slike */
+  object-fit: cover; /* Da bi slike bile razmerice i ispunile svojih 100px visine */
+}
+
+/* Putevima duhovne avanture */
+
+.header-putevimaDuhovne {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images-camino/background.jpeg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
