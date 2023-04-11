@@ -1,13 +1,18 @@
 .img-camino {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-camino img {
-  flex: 0 0 calc(33.3333% - 10px);
   margin: 5px;
-  height: 350px; /* Dodajte visinu slike */
-  object-fit: cover; /* Da bi slike bile razmerice i ispunile svojih 100px visine */
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.img-camino p {
+  text-align: center;
+  margin-top: 5px;
+  max-width: 100%;
 }
 
 /* Putevima duhovne avanture */

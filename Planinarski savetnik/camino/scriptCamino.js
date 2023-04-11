@@ -1,7 +1,7 @@
 // Nav-bar
 const nav = document.querySelector(".nav-bar");
 if (nav) {
-  fetch("navigation.html")
+  fetch("../navigation.html")
     .then((res) => res.text())
     .then((data) => {
       nav.innerHTML = data;
@@ -11,7 +11,7 @@ if (nav) {
 //Footer
 const footer = document.querySelector(".footer");
 if (footer) {
-  fetch("footer.html")
+  fetch("../footer.html")
     .then((res) => res.text())
     .then((data) => {
       footer.innerHTML = data;
