@@ -1,5 +1,4 @@
-
-   <a href="index.html"> <img src="/images/logo.png" /></a>
+<a href="index.html"> <img src="/images/logo.png" /></a>
 <div class="nav-links" id="navLinks">
   <i class="fa fa-times" onclick="hideMenu()"></i>
 
@@ -18,137 +17,132 @@
     <li><a href="savetnici.html">SAVETNICI</a></li>
     <li><a href="blog.html">BLOG</a></li>
     <li>
-      <span>INFO</span>
-      <div>
-        <ul class="dropdown">
-          <li><a href="about.html">O meni</a></li>
-          <li ><a href="kontakti.html">Kontakti</li>
-          <li><a href="terms.html">Uslovi i odredbe</a></li>
-        </ul>
-      </div>
+      <span id="info">INFO</span>
+      <ul class="dropdown">
+        <li><a href="about.html">O meni</a></li>
+        <li><a href="sponzorstva.html">Sponzorstva i donacije</a></li>
+        <li><a href="kontakti.html">Kontakti</a></li>
+        <li><a href="terms.html">Uslovi i odredbe</a></li>
+      </ul>
     </li>
   </ul>
 </div>
 <i class="fa fa-bars" onclick="showMenu()"></i>
+
 <script src="script.js"></script>
 
-
 <style>
-
-
-.header {
-  min-height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), #04091eb3),
-    url(/images/naslovna.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-nav {
-  display: flex;
-  padding: 2% 6%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav img {
-  width: 150px;
-}
-
-.nav-links {
-  flex: 1;
-  text-align: right;
-}
-
-.nav-links ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-
-.nav-links ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 15px;
-}
-.nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-}
-
-.nav-links ul li:hover::after {
-  width: 100%;
-  transition: 0.5s;
-}
-
-.dropdown {
-  display: none;
-}
-
-.nav-links ul li:hover .dropdown {
-  display: block;
-  position: absolute;
-  background-color: #f7695e;
-  margin-top: 10px;
-  text-align: center;
-}
-
-span {
-  color: white;
-  font-size: 15px;
-}
-
-/* mobile */
-
-@media (max-width: 700px) {
-  .text-box h1 {
-    font-size: 20px;
+  .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), #04091eb3),
+      url(/images/naslovna.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
-  .nav-links ul li {
-    display: block;
+
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  nav img {
+    width: 150px;
+  }
+
   .nav-links {
-    position: absolute;
-    background: #f44336;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
+    flex: 1;
+    text-align: right;
   }
 
-  nav .fa {
-    display: block;
+  .nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  .nav-links ul li a {
     color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
   }
 
-  .nav-links ul {
-    padding: 10px;
+  .nav-links ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
   }
 
-  /* stilovi za padajući meni na mobilnom uređaju */
+  .dropdown {
+    display: none;
+  }
+
   .nav-links ul li:hover .dropdown {
     display: block;
     position: absolute;
     background-color: #f7695e;
     margin-top: 10px;
     text-align: center;
-    width: 100%; /* dodajte stil za širinu padajućeg menija */
-    /* ostali stilovi po potrebi */
   }
-}
 
+  span {
+    color: white;
+    font-size: 15px;
+  }
 
+  /* mobile */
+
+  @media (max-width: 700px) {
+    .text-box h1 {
+      font-size: 20px;
+    }
+    .nav-links ul li {
+      display: block;
+    }
+    .nav-links {
+      position: absolute;
+      background: #f44336;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1s;
+    }
+
+    nav .fa {
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    .nav-links ul {
+      padding: 10px;
+    }
+
+    /* stilovi za padajući meni na mobilnom uređaju */
+    .nav-links ul li:hover .dropdown {
+      display: block;
+      position: absolute;
+      background-color: #f7695e;
+      margin-top: 10px;
+      text-align: center;
+      width: 100%; /* dodajte stil za širinu padajućeg menija */
+      /* ostali stilovi po potrebi */
+    }
+  }
 </style>

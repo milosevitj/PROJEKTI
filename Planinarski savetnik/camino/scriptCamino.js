@@ -1,7 +1,7 @@
 // Nav-bar
 const nav = document.querySelector(".nav-bar");
 if (nav) {
-  fetch("../navigation.html")
+  fetch("../../navigation.html")
     .then((res) => res.text())
     .then((data) => {
       nav.innerHTML = data;
