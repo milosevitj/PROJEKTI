@@ -1,0 +1,110 @@
+.contact-header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/phone.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-header h1 {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: center;
+  transform: translate(-50% -50%);
+  font-size: 30px;
+}
+
+.about {
+  display: flex;
+  font-size: 17px;
+}
+
+/* NATIONALITY */
+.nationality {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.nationality > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nationality img {
+  width: 250px;
+  height: auto;
+  padding: 20px;
+}
+
+.nationality h1 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nationality {
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  .nationality img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+/* KRAJ */
+
+.gss,
+.pss,
+.ps,
+.VazniTel {
+  margin: 40px;
+}
+
+a {
+  color: black;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .text-header {
+    top: 20%;
+    font-size: 24px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .gss,
+  .pss,
+  .ps,
+  .VazniTel {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 80px;
+    padding: 10px;
+  }
+}

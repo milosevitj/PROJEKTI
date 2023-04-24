@@ -1,94 +1,61 @@
-.sub-header {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/naslovna.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
-/* naslov */
-.sub-header h1 {
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  text-align: center;
-  transform: translate(-50% -50%);
-  font-size: 30px;
-}
-
-.about {
+.page {
   width: 80%;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 100px;
-  margin-top: 50px;
-}
-
-.about-col {
-  flex-basis: 48%;
-}
-
-.poziv {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-.about-col img {
-  width: 70%;
-  margin-left: 30px;
-  border-radius: 20px;
-}
-
-.about-col img {
-  display: block;
   margin: 0 auto;
+  padding: 20px;
 }
 
-.about-col h1 {
-  padding-top: 0;
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about-col p {
-  padding: 15px 0 25px;
+/* Flex container for section 1 content */
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+/* Flex container for section 1 content */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
   text-align: justify;
 }
 
-#terms {
-  padding-top: 0;
+/* Style for section 1 heading */
+.section-1 h1,
+.section-2 h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-#terms h1 {
-  padding-bottom: 15px;
+/* Style for section 1 paragraphs */
+.section-1 p,
+.section-2 p {
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
-#info-dropdown {
-  display: none;
+/* Style for section 1 link */
+.section-1 a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* mobile */
-@media (max-width: 700px) {
-  .about-col {
-    flex-basis: 100%;
-    margin-bottom: 30px;
-  }
-
-  .about-col img {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .poziv {
-    margin-left: 0;
-  }
+/* Style for section 2 image */
+.section-2 img {
+  max-width: 70%;
+  margin-bottom: 20px;
 }

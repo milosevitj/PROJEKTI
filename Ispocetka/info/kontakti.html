@@ -18,113 +18,62 @@
     />
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="about.css" />
-
-    
+    <link rel="stylesheet" href="kontakti.css" />
   </head>
   <body>
-    <section class="contact-header">
+    <section class="sub-header">
       <nav class="nav-bar"></nav>
       <div class="text-header">
         <h1>Kontakti</h1>
       </div>
     </section>
 
-    <section>
-      <main>
-        <div class="about">
-          <div class="gss">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/sr/8/85/Gss_logo.gif"
-              alt="Gss"
-              width="100px"
-              style="padding: 20px"
-            />
+    <section class="nationality">
+      <div class="serbia">
+        <img
+          src="img/serbia.png"
+          alt="serbia"
+          width="100px"
+          style="padding: 20px"
+        />
 
-            <h1 style="padding-bottom: 20px"><a href="https://www.gss.rs/kontakt">
-              Gorska služba
-              spasavanja
-            </a></h1>
+        <h1 style="padding-bottom: 20px">
+          <a href="srbija.html"> Srbija </a>
+        </h1>
+      </div>
 
-            <b>Stanica Kopaonik</b>
-            <p>063 466 4666</p>
-            <br />
-            <b>Stanica Stara Planina</b>
-            <p>063 466 461</p>
-            <br />
-            <b>Stanica Zlatibor</b>
-            <p>063 466 467</p>
-            <br />
-            <b>Stanica Divčibare</b>
-            <p>063 466 427</p>
-            <br />
-            <b>Stanica Beograd</b>
-            <p>063 466 408</p>
-            <br />
-            <b>Stanica Bor</b>
-            <p>063 466 463</p>
-            <br />
-            <b>Stanica Požega</b>
-            <p>063 466 438</p>
-            <br />
-            <b>Stanica Niš</b>
-            <p>063 466 484</p>
-            <br />
-            <b>Stanica Novi Sad</b>
-            <p>063 466 469</p>
-            <br />
-          </div>
-          <div class="pss">
-            <img
-              src="https://pss.rs/wp-content/uploads/2021/06/Logo-PSS-250px.jpg"
-              alt=""
-              width="100px"
-              style="padding: 20px"
-            />
-            <h1 style="padding-bottom: 20px"><a href="https://pss.rs/">Planinarski Savez Srbije</h1></a>
-            <br />
+      <div class="montenegro">
+        <img
+          src="img/montenegro.jpg"
+          alt="montenegro"
+          width="100px"
+          style="padding: 20px"
+        />
+        <h1 style="padding-bottom: 20px">
+          <a href="https://pss.rs/">Crna Gora</a>
+        </h1>
+      </div>
 
-            <p>011 33 43 137</p>
-            <br />
-            <p>011 33 43 103</p>
-            <br />
-          </div>
+      <div class="bosnia">
+        <img
+          src="img/bosnia.jpg"
+          width="100px"
+          style="padding: 20px"
+          alt="logoBl"
+          id="ps"
+        />
+        <h1 style="padding-bottom: 20px"><a>Bosna i Hercegovina</a></h1>
+      </div>
 
-          <div class="ps">
-            <img src="/images/logoBl.png" width="100px" style="padding: 20px;" alt="" id="ps">
-             <h1 style="padding-bottom: 20px">Planinarski<br> savetnik</h1>
-            <i class="fa fa-envelope fa-5px"></i>
-            <p>planinarski.savetnik@gmail.com</p> <br>
-            <a href ="https://www.instagram.com/planinarski.savetnik/?hl=en"><i class="fa fa-instagram" ></i></a>
-            <p>planinarski.savetnik</p>
-
-
-          </div>
-
-          <div class="VazniTel">
-             <img
-              src="/images/importantNumber.jpg"
-              alt=""
-              width="100px"
-              style="padding: 20px"
-            />
-            <h1 style="padding-bottom: 20px">Važni telefoni</h1>
-            <b>Policija</b>
-            <p>192</p>
-            <br>
-            <b>Vatrogasna služba</b>
-            <p>193</p>
-            <br>
-            <b>Hitna pomoć</b>
-            <p>194</p>
-            <br>
-            <b>AMSS pomoć na putu</b>
-            <p>987</p>
-            <br>
-            <b>Meteorološki podaci</b>
-            <p>9823</p>
-          </div>
-        </div>
-      </main>
+      <div class="croatia">
+        <img
+          src="img/croatia.jpg"
+          alt="importantNumber"
+          width="100px"
+          style="padding: 20px"
+        />
+        <h1 style="padding-bottom: 20px">Hrvatska</h1>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -133,81 +82,5 @@
     <!-- ?????? -->
 
     <script src="/script.js"></script>
-
-<style>
-      .contact-header {
-        background-image: linear-gradient(
-            rgba(4, 9, 30, 0.7),
-            rgba(4, 9, 30, 0.7)
-          ),
-          url(/images/phone.jpg);
-        height: 50vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .text-header h1 {
-        width: 90%;
-        color: #fff;
-        position: absolute;
-        top: 30%;
-        left: 5%;
-        text-align: center;
-        transform: translate(-50% -50%);
-        font-size: 30px;
-      }
-
-      .about {
-        display: flex;
-        font-size: 17px;
-      }
-      .gss,
-      .pss,
-      .ps,
-      .VazniTel {
-        margin: 40px;
-      }
-      
-      a{
-        color: black;
-      }
-
-      /* mobile */
-@media (max-width: 767px) {
-  .text-header {
-    top: 20%;
-    font-size: 24px;
-  }
-
-  .about {
-    flex-direction: column;
-  }
-
-  .gss,
-  .pss,
-  .ps,
-  .VazniTel {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  h1 {
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  img {
-    width: 80px;
-    padding: 10px;
-  }
-}
-
-    </style>
-
   </body>
 </html>

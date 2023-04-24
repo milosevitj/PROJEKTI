@@ -1,3 +1,14 @@
+/* HEADERI SLIKE */
+
+#glavna {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images-camino/školjka.jpg);
+}
+#putevimaDuhovneAvanture {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images-camino/školjka.jpg);
+}
+
 .img-camino {
   display: flex;
   justify-content: center;
@@ -5,7 +16,7 @@
 
 .img-camino img {
   margin: 5px;
-  max-height: 350px;
+  max-height: 500px;
   object-fit: cover;
 }
 
@@ -19,15 +30,4 @@
 
 .maps {
   width: 20%;
-}
-
-/* Putevima duhovne avanture */
-
-.header-putevimaDuhovne {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images-camino/background.jpeg);
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }

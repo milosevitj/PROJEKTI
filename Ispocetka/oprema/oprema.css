@@ -1,0 +1,12 @@
+.header-gear {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://media.istockphoto.com/id/925356980/photo/hiking-equipment-backpack-and-boots-on-top-of-mountain.jpg?b=1&s=170667a&w=0&k=20&c=yOBv7W8L8lWflUDVn8oTqV60eXv_F-mi979H6PmE6cc=);
+}
+
+#gear-basic {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: justify;
+}
