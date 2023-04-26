@@ -1,0 +1,96 @@
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/savetnici/img/header-savetnici.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text-box {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .text-box {
+    width: 90%;
+    top: 45%;
+    left: 5%;
+  }
+
+  .text-box h1 {
+    font-size: 1.2rem;
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* For screens between 400px and 600px */
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .text-box {
+    width: 80%;
+    top: 40%;
+    left: 10%;
+  }
+
+  .text-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
+  .hero-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* For screens between 600px and 900px */
+@media only screen and (min-width: 640px) and (max-width: 900px) {
+  .text-box {
+    width: 80%;
+    top: 30%;
+    left: 10%;
+  }
+
+  .text-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
+  .hero-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* For screens larger than 900px */
+@media only screen and (min-width: 900px) {
+  .text-box {
+    width: 60%;
+    top: 45%;
+    left: 20%;
+  }
+
+  .text-box h1 {
+    font-size: 2rem;
+  }
+
+  .text-box p {
+    font-size: 1.5rem;
+  }
+}

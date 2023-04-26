@@ -1,0 +1,36 @@
+/* Clouds */
+
+/* ANIMATION */
+.clouds img {
+  width: 1400px;
+  animation: cloud 10s linear forwards;
+  pointer-events: none;
+}
+
+.clouds {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 250px;
+}
+@keyframes cloud {
+  0% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0);
+    opacity: 5;
+  }
+  70% {
+    transform: translate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-80vh);
+    opacity: 0;
+  }
+}
