@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -14,56 +15,44 @@ body {
 }
 
 .container {
-  max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.row-1 {
+  margin: 100px;
+}
+
+/* pozadina */
+
+.sub-header {
+  height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
 h1 {
   margin-bottom: 20px;
-  font-size: 4rem;
+  /* font-size: 4rem;  */
   text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 p {
   margin-bottom: 30px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 100px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .col {
   flex: 1;
   padding: 0 10px;
-}
-
-/* Media queries */
-
-@media screen and (min-width: 576px) {
-  .col-sm-12 {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .col-md-6 {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .col-lg-6 {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
 }
 
 .hero-btn {
@@ -122,4 +111,9 @@ a {
   background-color: #f44336;
   color: #222;
   text-decoration: none;
+}
+
+/* sendvic meni da se ne prikazuzuje u desktop formatu */
+nav .fa {
+  display: none;
 }

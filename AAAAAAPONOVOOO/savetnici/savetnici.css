@@ -9,6 +9,36 @@
 }
 
 .text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+
+.text-box h1 {
+  font-size: 62px;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/savetnici/img/header-savetnici.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text-box {
   color: #fff;
   position: absolute;
   text-align: center;
@@ -41,7 +71,6 @@
   .text-box {
     width: 80%;
     top: 40%;
-    left: 10%;
   }
 
   .text-box h1 {
@@ -62,7 +91,6 @@
   .text-box {
     width: 80%;
     top: 30%;
-    left: 10%;
   }
 
   .text-box h1 {
