@@ -8,7 +8,7 @@ form {
 
 select {
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.5rem;
   color: #222;
   border: none;
@@ -17,12 +17,13 @@ select {
 }
 
 #country-select {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 #submit-btn {
   background-color: #f44336;
   border: 1px solid white;
+  margin: 55px;
 }
 
 /* trenutno se odnosi na kontakte */
@@ -30,4 +31,15 @@ select {
 .row a {
   text-decoration: none;
   color: black;
+}
+
+.col-md-3,
+.col-sm-6 {
+  text-align: center;
+}
+
+.contacts-img {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
 }
