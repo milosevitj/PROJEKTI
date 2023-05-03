@@ -17,6 +17,19 @@ if (nav) {
     });
 }
 
+/// Padajuci meni- INFO
+
+// NE RADI
+
+// window.addEventListener("DOMContentLoaded", () => {
+//   const infoButton = document.getElementById("info");
+//   const dropdownMenu = document.querySelector(".dropdown");
+
+//   infoButton.addEventListener("click", () => {
+//     dropdownMenu.classList.toggle("active");
+//   });
+// });
+
 //Footer
 const footer = document.querySelector(".footer");
 if (footer) {
