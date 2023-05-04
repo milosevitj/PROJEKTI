@@ -21,9 +21,22 @@ select {
 }
 
 #submit-btn {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #fff;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+#submit-btn:hover {
   background-color: #f44336;
-  border: 1px solid white;
-  margin: 55px;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* trenutno se odnosi na kontakte */
