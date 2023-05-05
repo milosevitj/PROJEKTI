@@ -1,0 +1,45 @@
+.header {
+  height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/sustainability/img/zajednica-header.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-box {
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text-box p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
