@@ -4,14 +4,14 @@
 
 .card {
   margin-bottom: 50px;
-  width: 350px;
+  width: 300px;
   text-align: center;
   margin: 30px;
   max-height: 60vh;
 }
 
 .card img {
-  height: 23vh;
+  height: 30vh;
   width: auto;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
@@ -42,9 +42,15 @@
 .card-body p {
   display: none;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: black;
 }
 
 .card:hover .card-body p {

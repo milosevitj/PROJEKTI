@@ -18,3 +18,29 @@
   left: 5%;
   text-align: center;
 }
+
+.image-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.section {
+  width: 100%;
+}
+
+.section h2 {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0;
+  }
+}

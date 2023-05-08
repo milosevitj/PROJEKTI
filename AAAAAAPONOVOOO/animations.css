@@ -2,7 +2,7 @@
 
 /* ANIMATION */
 .clouds img {
-  width: 1400px;
+  width: 1100px;
   animation: cloud 10s linear forwards;
   pointer-events: none;
 }
@@ -11,10 +11,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: top;
+  align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: 250px;
+  bottom: 220px;
 }
 @keyframes cloud {
   0% {
@@ -32,5 +32,82 @@
   100% {
     transform: translate(-80vh);
     opacity: 0;
+  }
+}
+
+/* ANIMATION */
+@media (max-width: 768px) {
+  /* ova linija određuje minimalnu širinu ekrana na kojoj će se primjenjivati stilovi */
+  .clouds img {
+    width: 700px;
+    animation: cloud 10s linear forwards;
+    pointer-events: none;
+  }
+
+  .clouds {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 220px;
+  }
+
+  @keyframes cloud {
+    0% {
+      transform: translate(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translate(0);
+      opacity: 5;
+    }
+    70% {
+      transform: translate(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-80vh);
+      opacity: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  /* ova linija određuje minimalnu širinu ekrana na kojoj će se primjenjivati stilovi */
+  .clouds img {
+    width: 1000px;
+    animation: cloud 10s linear forwards;
+    pointer-events: none;
+  }
+
+  .clouds {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 180px;
+  }
+
+  @keyframes cloud {
+    0% {
+      transform: translate(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translate(0);
+      opacity: 5;
+    }
+    70% {
+      transform: translate(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-80vh);
+      opacity: 0;
+    }
   }
 }
