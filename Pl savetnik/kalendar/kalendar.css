@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 5px;
+}
+
+td p {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.event {
+  color: #f44336;
+  font-weight: bold;
+}
