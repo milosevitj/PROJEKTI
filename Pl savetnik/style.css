@@ -1,0 +1,126 @@
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 20px;
+  padding: 0 20px;
+}
+
+.row-1 {
+  margin: 100px;
+}
+
+/* pozadina */
+
+.sub-header {
+  height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+  /* font-size: 4rem; */
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hero-btn {
+  margin-top: 40px;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Content section */
+
+.section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0.3, 0.3);
+  text-align: justify;
+  margin-bottom: 100px;
+  margin: 60px;
+}
+
+/* h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 600;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.back-btn {
+  margin: 20px;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #222;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background-color: #f44336;
+  color: #222;
+  text-decoration: none;
+}
+
+/* sendvic meni da se ne prikazuzuje u desktop formatu */
+nav .fa {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 0;
+  }
+}

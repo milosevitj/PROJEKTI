@@ -1,0 +1,21 @@
+.img-container img {
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-container p {
+  text-align: center;
+}
+
+#map {
+  width: 100%;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-container img {
+    width: 100%;
+  }
+}
