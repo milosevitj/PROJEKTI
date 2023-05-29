@@ -14,8 +14,23 @@
   height: fit-content;
 }
 
+h3 {
+  padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .img-container img {
     width: 100%;
   }
+}
+
+h4 a {
+  color: black;
+  /* text-decoration: none; */
+}
+
+p a {
+  color: red;
+  text-decoration: none;
+  /* font-size: 15px; */
 }

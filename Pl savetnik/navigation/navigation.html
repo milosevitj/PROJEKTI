@@ -9,14 +9,15 @@
   <ul>
     <li><a href="/home/index.html">HOME</a></li>
     <!-- <li><a href="">BORAVAK NA PLANINI</a></li> -->
-    <li><a href="/oprema/oprema.html">OPREMA</a></li>
+    <!-- <li><a href="/oprema/oprema.html">OPREMA</a></li> -->
     <li><a href="/savetnici/savetnici.html">SAVETNICI</a></li>
-    <li>
+    <!-- <li>
       <a href="../sustainability/sustainability.html">ODRŽIVOST</a>
-    </li>
+    </li> -->
     <li><a href="/blog/blog.html">BLOG</a></li>
-    <li><a href="/contacts/contacts.html">KONTAKTI</a></li>
     <li><a href="/kalendar/kalendar.html">KALENDAR</a></li>
+
+    <li><a href="/contacts/contacts.html">KONTAKTI</a></li>
 
     <li>
       <span id="info">INFO</span>
@@ -74,7 +75,7 @@
     height: 2px;
     background: #f44336;
     display: block;
-    margin: auto;
+    margin-left: auto;
   }
 
   .nav-links ul li:hover::after {
@@ -87,16 +88,18 @@
     display: none;
   }
 
-  .dropdown.active {
-    display: block;
-  }
-
   .nav-links ul li:hover .dropdown {
     display: block;
     position: absolute;
     background: #f44336;
+    width: 120px;
+  }
+
+  .nav-links ul li:hover .dropdown a {
+    font-size: 17px;
     text-align: left;
   }
+
   /*  */
 
   /* mobile */
@@ -113,7 +116,7 @@
     .nav-links {
       position: absolute;
       background: #f44336;
-      height: 100vh;
+      /* height: 100vh; */
       width: 200px;
       top: 0;
       right: -200px;
@@ -132,18 +135,6 @@
 
     .nav-links ul {
       padding: 10px;
-    }
-
-    /* stilovi za padajući meni na mobilnom uređaju */
-    .nav-links ul li:hover .dropdown {
-      display: block;
-      position: absolute;
-      background-color: #f44336;
-      margin-top: 10px;
-      text-align: center;
-      font-weight: 500;
-      width: 100%; /* dodajte stil za širinu padajućeg menija */
-      /* ostali stilovi po potrebi */
     }
   }
 </style>
