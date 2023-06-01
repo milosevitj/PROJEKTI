@@ -2,7 +2,7 @@
 const nav = document.querySelector(".nav-bar");
 if (nav) {
   // Formiranje putanje do navigation.html relativno u odnosu na korenski direktorijum
-  const navigationPath = "../navigation/navigation.html";
+  const navigationPath = "/navigation/navigation.html";
 
   fetch(navigationPath)
     .then((res) => res.text())

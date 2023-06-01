@@ -30,8 +30,8 @@ body {
 .sub-header {
   height: 45vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/background.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.7)),
+    url(/images/background1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 p {
